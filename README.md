@@ -1,2 +1,2 @@
-# vincegeaza.github.io
-bemutató oldal
+# testrepo
+csak úgy vagy nem
