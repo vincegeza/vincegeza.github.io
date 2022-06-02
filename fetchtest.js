@@ -235,4 +235,4 @@ Body.appendChild(teszt);
 teszt.innerHTML = "VAJON EZ IS ELTŰNIK?";
 });
 
-window.onbeforeunload.apply
+//window.onbeforeunload.apply
