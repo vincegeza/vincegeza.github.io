@@ -42,10 +42,10 @@ function getServerData(url) {
 function startGetUsers() {
   //let tBody =document.querySelector("tbody");
     //tBody.innerHTML = "";
-  getServerData("http://localhost:3000/users").then (
-    data  => fillDataTable(data, 'userTable')
- // getServerData("https://my-json-server.typicode.com/vincegeza/testrepo/users").then (
-  //data  => fillDataTable(data, 'userTable')
+  //getServerData("http://localhost:3000/users").then (
+  //  data  => fillDataTable(data, 'userTable')
+  getServerData("https://my-json-server.typicode.com/vincegeza/testrepo/users").then (
+  data  => fillDataTable(data, 'userTable')
 
     );
     
