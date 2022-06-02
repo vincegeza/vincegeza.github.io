@@ -142,9 +142,9 @@ function delRow(btn) {
     mode: "cors",
     cache: "no-cache"  
   };
-    fetch(`http://localhost:3000/users/${id}`,fetchOptions).then(
+    //fetch(`http://localhost:3000/users/${id}`,fetchOptions).then(
 
-  // fetch(`https://my-json-server.typicode.com/vincegeza/testrepo/users/${id}`,fetchOptions).then(
+   fetch(`https://my-json-server.typicode.com/vincegeza/testrepo/users/${id}`,fetchOptions).then(
       resp => resp.json(),
       err => console.error(err)
     ).then(
@@ -201,7 +201,9 @@ return tr;
       body: JSON.stringify(adat)
 
   };
- fetch(`http://localhost:3000/users/`, fetchOptions).then(
+ //fetch(`http://localhost:3000/users/`, fetchOptions).then(
+ fetch(`https://my-json-server.typicode.com/vincegeza/testrepo/users/`, fetchOptions).then(
+   
   resp => resp.json(),
   err => console.error(err)
 ).then( data => startGetUsers(),
